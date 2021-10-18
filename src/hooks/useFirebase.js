@@ -1,0 +1,132 @@
+import { useEffect, useState } from "react"
+import initializeAuthentication from '../Firebase/firebase.initialize';
+import { getAuth, signInWithPopup, GoogleAuthProvider, signInWithEmailAndPassword, sendPasswordResetEmail, createUserWithEmailAndPassword, sendEmailVerification, onAuthStateChanged, signOut, updateProfile } from "firebase/auth";
+import { useLocation } from "react-router";
+
+
+initializeAuthentication();
+
+const useFirebase = () => {
+    const [user, setUser] = useState({});
+    const [error, setError] = useState('');
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const [isLoading, setIsLoading] = useState(true);
+    const [message, setMessage] = useState("");
+
+    const auth = getAuth()
+    const googleProvider = new GoogleAuthProvider();
+
+    // google sign in
+    const signInUsingGoogle = () => {
+        setIsLoading(true);
+        return signInWithPopup(auth, googleProvider);
+    }
+
+    // logout
+    const logout = () => {
+        setIsLoading(true);
+        signOut(auth)
+            .then(() => {
+                setUser({});
+            })
+            .catch((error) => { })
+            .finally(() => {
+                setIsLoading(false);
+            });
+    }
+    // signin hold
+    useEffect(() => {
+        onAuthStateChanged(auth, user => {
+            if (user) {
+                setUser(user);
+            }
+            setIsLoading(false)
+        })
+    }, []);
+
+    // Login by email and password
+    const handleNameChange = (e) => {
+        setName(e.target.value);
+    };
+    const handleEmailChange = (e) => {
+        setEmail(e.target.value);
+    };
+    const handlePasswordChange = (e) => {
+        setPassword(e.target.value);
+
+    };
+
+    const handleLogin = () => {
+        return signInWithEmailAndPassword(auth, email, password);
+
+    };
+
+    const hanleResetPassword = () => {
+        sendPasswordResetEmail(auth, email)
+            .then(() => { })
+            .catch((err) => {
+                console.log(err.message);
+            });
+    };
+
+    // registration by email and password
+    const handleOnSubmit = (e) => {
+        e.preventDefault();
+        if (password.length < 6) {
+            setError("password must be at least 6 character long");
+            return;
+        }
+        createUserWithEmailAndPassword(auth, email, password)
+            .then((result) => {
+                setUser(result.user);
+                updateRegisterInfo();
+                verifyEmail();
+                // setMessage('Register Done');
+                // window.location.reload()
+            })
+    };
+    const updateRegisterInfo = () => {
+        updateProfile(auth.currentUser, {
+            displayName: name,
+        })
+            .then(() => { })
+            .catch((error) => { });
+    };
+
+    const verifyEmail = () => {
+        sendEmailVerification(auth.currentUser)
+            .then(() => {
+                // Email verification sent!
+            });
+    };
+
+    return {
+        user,
+        setUser,
+        error,
+        setError,
+        email,
+        password,
+        name,
+        message,
+        setMessage,
+
+        signInUsingGoogle,
+        logout,
+
+        handleNameChange,
+        handleEmailChange,
+        handlePasswordChange,
+        handleLogin,
+        hanleResetPassword,
+
+        handleOnSubmit,
+
+        isLoading,
+        setIsLoading
+    }
+}
+
+export default useFirebase;

@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Dental Surgery",
+    "cost": "30.99",
+    "description": "Dental surgery is any of a number of medical procedures that involve artificially modifying dentition.",
+    "description2": "Dentists inject anesthetic to block sensory transmission by the alveolar nerves. The superior alveolar nerves are not usually anesthetized directly because they are difficult to approach with a needle. For this reason, the maxillary teeth are usually anesthetized locally by inserting the needle beneath the oral mucosa surrounding the teeth",
+    "img": "https://i.ibb.co/XyRwmH1/surgeons-placing-implant.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cardiac surgery",
+    "cost": "80.00",
+    "description": "Cardiac surgery, or cardiovascular surgery, is surgery on the heart or great vessels performed by cardiac surgeons.",
+    "description2": "Open-heart surgery is any kind of surgery in which a surgeon makes a large incision in the chest to open the rib cage and operate on the heart. It refers to the chest, not the heart. Depending on the type of surgery, the surgeon also may open the heart.",
+    "img": "https://i.ibb.co/NWjBKyd/Heart.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Eye surgery",
+    "cost": "70.42",
+    "description": "Eye surgery, also known as ocular surgery, is surgery performed on the eye or its adnexa, typically by an ophthalmologist.",
+    "description2": "Eye surgery, also known as ocular surgery, is surgery performed on the eye or its adnexa, typically by an ophthalmologist. The eye is a very fragile organ, and requires extreme care before, during, and after a surgical procedure to minimise or prevent further damage.",
+    "img": "https://i.ibb.co/h2j6SVJ/woman-eye-surgery.jpg"
+  },
+  {
+    "id": 4,
+    "name": "X-Ray",
+    "cost": "50.50",
+    "description": "An X-ray, or, much less commonly, X-radiation, is a penetrating form of high-energy electromagnetic radiation.",
+    "description2": "X-rays are a type of radiation called electromagnetic waves. X-ray imaging creates pictures of the inside of your body. The images show the parts of your body in different shades of black and white.",
+    "img": "https://i.ibb.co/tZ0f0TD/x-ray-day.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Electrocardiogram(ECG)",
+    "cost": "95.00",
+    "description": "An electrocardiogram (ECG) is a simple test that can be used to check your heart's rhythm and electrical activity.",
+    "description2": "A cardiac stress test is a cardiological test that measures the heart's ability to respond to external stress in a controlled clinical environment. The stress response is induced by exercise.",
+    "img": "https://i.ibb.co/s2Hc1kB/ecg.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Medicine Stores",
+    "cost": "50.31",
+    "description": "The Medicine Store is an independently owned and operated retail and compounding pharmacy.",
+    "description2": "A pharmacy (also called drugstore in American English or community pharmacy or chemist in Commonwealth English, or rarely, apothecary) is a retail shop which provides pharmaceutical drugs, among other products.",
+    "img": "https://i.ibb.co/gTV5hgC/drug-medicine-online.jpg"
+  },
+  {
+    "id": 7,
+    "name": "COVID-19",
+    "cost": "00.00",
+    "category": "Totay's News",
+    "description": "Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment. However, some will become seriously ill and require medical attention.",
+    "img": "https://i.ibb.co/zPwRjpJ/projectcovid-1000x667.jpg"
+  },
+  {
+    "id": 8,
+    "name": "World Health Organization",
+    "cost": "00.00",
+    "category": "Famous News",
+    "description": "WHO has developed a clinical case definition of post COVID-19 condition. This first version was developed by patients, researchers and others, representing all WHO regions, with the understanding that the definition may change as new evidence emerges and our understanding of the consequences of COVID-19 continues to evolve.",
+    "img": "https://i.ibb.co/MkjpWmY/who-says-air-pollution-kills-7-million-a-year-toughens-guidelines.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Short home workouts",
+    "cost": "00.00",
+    "category": "Popular in today",
+    "description": "Too tired to exercise after work These 10-minute workouts are just what you need. These equipment free fitness routines are great to do at home and short enough for you to easily fit them into your daily schedule. There are 6 workouts, 1 for every day of the week if you include a rest day, each working on a different area of your fitness.",
+    "img": "https://i.ibb.co/9n4R6fJ/home-workout.jpg"
+  },
+  {
+    "id": 10,
+    "name": "FDA vaccine",
+    "cost": "00.00",
+    "category": "Trending Health news",
+    "description": "FDA vaccine advisers recommend emergency use authorization of booster dose of Moderna's Covid-19 vaccine Doctors see advanced cancer cases in the wake of pandemic-delayed screenings and treatment Merck seeks FDA emergency use authorization for antiviral Covid-19 treatment molnupiravir.",
+    "img": "https://i.ibb.co/17hSPc1/health.jpg"
+  },
+  {
+    "id": 11,
+    "name": "DNA vs mRNA vaccines",
+    "cost": "00.00",
+    "category": "Top view news",
+    "description": "DNA and RNA vaccines use genetic material to deliver information to human cells and elicit an immune response. DNA vaccines are safe, easy, affordable to produce, and, unlike RNA vaccines, are stable at room temperature. These attributes make them more promising for rapidly immunizing populations, especially in resource-limited settings.",
+    "img": "https://i.ibb.co/JQ0Yk8x/h2.jpg"
+  },
+  {
+    "id": 12,
+    "name": "WHO issues case of COVID",
+    "cost": "00.00",
+    "category": "Regular news",
+    "description": "Depending upon the severity of symptoms, most individuals recover from COVID-19 within the first 3–4 weeks after contracting the SARS-CoV-2 virus. Yet, a significant number of individuals experience lingering COVID-19 symptoms for weeks and months after this initial or acute phase of the infection.",
+    "img": "https://i.ibb.co/m9k9HKK/h3.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Medicine",
+    "description": "Medicine is the field of health and healing. It includes nurses, doctors, and various specialists. It covers diagnosis, treatment, and prevention of disease, medical research, and many other aspects of health.",
+    "img": "https://i.ibb.co/d5LTjsQ/julia-zyablova-S1v7h-VUi-Cg0-unsplash.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Surgery",
+    "description": "Surgery means a procedure performed for the purpose of structurally altering the human body by incision or destruction of tissues and is part of the practice of medicine for the diagnostic or therapeutic treatment of conditions or disease processes by any instruments.",
+    "img": "https://i.ibb.co/2dB7FJ1/arseny-togulev-DE6r-Yp1n-Aho-unsplash.jpg"
+  },
+  {
+    "id": 15,
+    "name": "ENT",
+    "description": "ENT physician: A medical specialist who is concerned with the diagnosis and treatment of disorders of the head and neck, including particularly the ears, nose, and throat. ENT doctors are also called otolaryngologists.",
+    "img": "https://i.ibb.co/wrm6XFF/IAC-Full-Lateral-Zoom-1.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Dental",
+    "description": "Dentistry, the profession concerned with the prevention and treatment of oral disease, including diseases of the teeth and supporting structures and diseases of the soft tissues of the mouth.",
+    "img": "https://i.ibb.co/g9TxQ9g/quang-tri-nguyen-Vckd-Jzo7ig0-unsplash.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Eye",
+    "description": "Eye: The organ of sight. The iris is the colored part of the eye that helps regulate the amount of light that enters the eye. The pupil is the dark aperture in the iris that determines how much light is let into the eye.",
+    "img": "https://i.ibb.co/vwCBT5S/daniil-kuzelev-QRaw-Wg-V6gmo-unsplash.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Orthopaedics",
+    "description": "Orthopaedics is the medical specialty that focuses on injuries and diseases of your body's musculoskeletal system. This complex system, which includes your bones, joints, ligaments, tendons, muscles, and nerves, allows you to move, work, and be active. And anybody can break a bone.",
+    "img": "https://i.ibb.co/N2ckMrw/ortho.jpg"
+  }
+]

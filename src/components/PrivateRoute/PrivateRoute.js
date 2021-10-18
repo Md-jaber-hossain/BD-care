@@ -8,9 +8,9 @@ const PrivateRoute = ({ children, ...rest }) => {
     const { user, isLoading } = useAuth();
     if (isLoading) {
         return <p className="text-center">Loading........</p>
-        // return <Spinner animation="border" variant="danger" />
     }
     return (
+        // private route for redirecting login page to expected page
         <Route
             {...rest}
             render={({ location }) => user.email ?

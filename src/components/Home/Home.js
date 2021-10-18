@@ -13,6 +13,7 @@ const Home = () => {
 
     const { medical } = useMedical();
     return (
+        // Header , home service, review, doctors information call
         <>
             <Header></Header>
             <div id="services" className="container mt-5 mb-5">
@@ -20,7 +21,7 @@ const Home = () => {
                     <h2 className="fw-bold">Our <span className="text-danger"> Services</span> For <span className="text-danger">You</span></h2>
                     <p className="text-secondary text-center">We provide you best medical services.</p>
                 </div>
-                <div class="row row-cols-1 row-cols-md-3 g-5">
+                <div className="row row-cols-1 row-cols-md-3 g-5">
                     {
                         medical.slice(0, 6).map(submedical => <HomeServices
                             key={submedical.id}

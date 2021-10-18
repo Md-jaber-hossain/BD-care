@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Dental Surgery",
-    "cost": "30.99",
+    "cost": "3000.00",
     "description": "Dental surgery is any of a number of medical procedures that involve artificially modifying dentition.",
     "description2": "Dentists inject anesthetic to block sensory transmission by the alveolar nerves. The superior alveolar nerves are not usually anesthetized directly because they are difficult to approach with a needle. For this reason, the maxillary teeth are usually anesthetized locally by inserting the needle beneath the oral mucosa surrounding the teeth",
     "img": "https://i.ibb.co/XyRwmH1/surgeons-placing-implant.jpg"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Cardiac surgery",
-    "cost": "80.00",
+    "cost": "8500.00",
     "description": "Cardiac surgery, or cardiovascular surgery, is surgery on the heart or great vessels performed by cardiac surgeons.",
     "description2": "Open-heart surgery is any kind of surgery in which a surgeon makes a large incision in the chest to open the rib cage and operate on the heart. It refers to the chest, not the heart. Depending on the type of surgery, the surgeon also may open the heart.",
     "img": "https://i.ibb.co/NWjBKyd/Heart.jpg"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Eye surgery",
-    "cost": "70.42",
+    "cost": "1400.00",
     "description": "Eye surgery, also known as ocular surgery, is surgery performed on the eye or its adnexa, typically by an ophthalmologist.",
     "description2": "Eye surgery, also known as ocular surgery, is surgery performed on the eye or its adnexa, typically by an ophthalmologist. The eye is a very fragile organ, and requires extreme care before, during, and after a surgical procedure to minimise or prevent further damage.",
     "img": "https://i.ibb.co/h2j6SVJ/woman-eye-surgery.jpg"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "X-Ray",
-    "cost": "50.50",
+    "cost": "500.00",
     "description": "An X-ray, or, much less commonly, X-radiation, is a penetrating form of high-energy electromagnetic radiation.",
     "description2": "X-rays are a type of radiation called electromagnetic waves. X-ray imaging creates pictures of the inside of your body. The images show the parts of your body in different shades of black and white.",
     "img": "https://i.ibb.co/tZ0f0TD/x-ray-day.jpg"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Electrocardiogram(ECG)",
-    "cost": "95.00",
+    "cost": "400.00",
     "description": "An electrocardiogram (ECG) is a simple test that can be used to check your heart's rhythm and electrical activity.",
     "description2": "A cardiac stress test is a cardiological test that measures the heart's ability to respond to external stress in a controlled clinical environment. The stress response is induced by exercise.",
     "img": "https://i.ibb.co/s2Hc1kB/ecg.jpg"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Medicine Stores",
-    "cost": "50.31",
+    "cost": "5.00",
     "description": "The Medicine Store is an independently owned and operated retail and compounding pharmacy.",
     "description2": "A pharmacy (also called drugstore in American English or community pharmacy or chemist in Commonwealth English, or rarely, apothecary) is a retail shop which provides pharmaceutical drugs, among other products.",
     "img": "https://i.ibb.co/gTV5hgC/drug-medicine-online.jpg"

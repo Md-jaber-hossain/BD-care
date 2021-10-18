@@ -5,28 +5,29 @@ import useMedical from '../../hooks/useMedical';
 import "./Details.css"
 
 const Details = () => {
-
+    // dynamic id for details
     const { id } = useParams();
     const { medical } = useMedical();
 
     const detailsMatchedCard = medical?.find(submedical => submedical.id === parseInt(id));
-    // console.log(detailsMatchedCard);
 
+    // dynamic services information show
     return (
         <div className="container my-5">
             <div className="row">
-                <div className="col-md-6 d-flex justify-content-center align-items-center my-5">
+                <div className="col-md-6 my-5">
+                    <img className="img-fluid rounded-3" src={detailsMatchedCard?.img} alt="" />
+                </div>
+                <div className="col-md-6 d-flex justify-content-center align-items-center">
                     <div>
-                        <h1>{detailsMatchedCard?.name}</h1>
-                        <p>{detailsMatchedCard?.description2}</p>
+                        <h1 className="text-danger">{detailsMatchedCard?.name}</h1><br />
+                        <h6><b>Description:</b><br /><span className="text-secondary">{detailsMatchedCard?.description}</span></h6><br />
+                        <p> <b>More Info:</b><br /> {detailsMatchedCard?.description2}</p>
                         <div className=" d-flex">
                             <h2>$ {detailsMatchedCard?.cost}</h2>
                         </div>
                         <Link to="/home"><button className="item-add-btn-style mt-3"> Home </button></Link>
                     </div>
-                </div>
-                <div className="col-md-6 my-5">
-                    <img className="img-fluid" src={detailsMatchedCard?.img} alt="" />
                 </div>
             </div>
         </div>

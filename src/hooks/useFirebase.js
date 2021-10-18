@@ -75,7 +75,13 @@ const useFirebase = () => {
     const handleOnSubmit = (e) => {
         e.preventDefault();
         if (password.length < 6) {
-            setError("password must be at least 6 character long");
+            setError("Password must be at least 6 character long");
+            // setMessage("");
+            return;
+        }
+        if (!/(?=.*?[a-z])/.test(password)) {
+            setError("Password must be At least one Lower case English letter");
+            // setMessage("");
             return;
         }
         createUserWithEmailAndPassword(auth, email, password)
@@ -84,7 +90,7 @@ const useFirebase = () => {
                 updateRegisterInfo();
                 verifyEmail();
                 // setMessage('Register Done');
-                // window.location.reload()
+                window.location.reload()
             })
     };
     const updateRegisterInfo = () => {

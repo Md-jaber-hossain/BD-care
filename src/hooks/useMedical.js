@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 
 const useMedical = () => {
+    // fetching the data from medical.json then return to outsite use
     const [medical, setMedical] = useState([]);
 
     useEffect(() => {

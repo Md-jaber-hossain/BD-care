@@ -7,6 +7,7 @@ const Register = () => {
     const { user, loggedInUser, name, email, password, error, signInUsingGoogle,
          handleNameChange, handleEmailChange, handlePasswordChange, handleOnSubmit, message} = useAuth();
     return (
+        // Display the registration form
         <div className="App container ">
             <div className="row">
                 <div className="login-area col-md-6 mt-4 mb-5">
@@ -40,6 +41,7 @@ const Register = () => {
                                             name="password"
                                             placeholder="Enter your Password"
                                         />
+                                        <p className="text-danger">{error}</p>
                                         <input
                                             className="mt-3 w-75 btn btn-danger m-auto rounded-3"
                                             type="submit"

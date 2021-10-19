@@ -4,6 +4,7 @@ import "./Facilities.css"
 
 const Facilities = () => {
     return (
+        // facilities information show
         <>
             <div className=" container mt-5">
                 <div className="row">

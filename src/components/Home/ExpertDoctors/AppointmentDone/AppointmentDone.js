@@ -2,6 +2,7 @@ import React from 'react';
 
 const AppointmentDone = () => {
     return (
+        // display the appointment done message
         <>
             <div className="row mt-5">
                 <div className="col-md-12 text-center">

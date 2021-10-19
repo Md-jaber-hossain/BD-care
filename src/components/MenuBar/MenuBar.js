@@ -13,7 +13,7 @@ const MenuBar = () => {
     <>
       {/* Navbar for all pages */}
 
-      <Navbar bg="light" variant="light" sticky="top" collapseOnSelect expand="lg" >
+      <Navbar bg="light" variant="light" fixed="top" collapseOnSelect expand="lg" >
         <Container>
           <Navbar.Brand href="#home"><h1 className="fw-bold text-black">BD <span className="text-danger">Care</span></h1></Navbar.Brand>
           <Navbar.Toggle />

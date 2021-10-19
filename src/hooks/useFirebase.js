@@ -90,8 +90,11 @@ const useFirebase = () => {
                 updateRegisterInfo();
                 verifyEmail();
                 // setMessage('Register Done');
-                window.location.reload()
+                // window.location.reload()
             })
+            .catch((error) => {
+                setError('fail to register');
+            });
     };
     const updateRegisterInfo = () => {
         updateProfile(auth.currentUser, {

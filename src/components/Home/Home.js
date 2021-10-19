@@ -36,13 +36,13 @@ const Home = () => {
 
             <Facilities></Facilities>
 
-            {/*--------- Patient reviews ------------*/}
-
-            <PatientReviews></PatientReviews>
-
             {/* --------Specialized doctors card------- */}
 
             <ExpertDoctors></ExpertDoctors>
+
+            {/*--------- Patient reviews ------------*/}
+
+            <PatientReviews></PatientReviews>
 
         </>
     );

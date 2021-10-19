@@ -13,6 +13,8 @@ import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Department from './components/Department/Department';
 import News from './components/News/News';
+import DoctorAppointment from './components/Home/ExpertDoctors/DoctorAppointment/DoctorAppointment';
+import AppointmentDone from './components/Home/ExpertDoctors/AppointmentDone/AppointmentDone';
 
 
 function App() {
@@ -37,6 +39,12 @@ function App() {
             <PrivateRoute exact path="/Details/:id">
               <Details></Details>
             </PrivateRoute>
+            <PrivateRoute exact path="/appointment">
+              <DoctorAppointment></DoctorAppointment>
+            </PrivateRoute>
+            <Route exact path="/appointmentcomplete">
+              <AppointmentDone></AppointmentDone>
+            </Route>
             <Route exact path="/login">
               <Login></Login>
             </Route>

@@ -1,0 +1,8 @@
+.doctor-btn-style{
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(238, 61, 84);
+    color: white;
+    width: 140px;
+    height: 30px;
+}

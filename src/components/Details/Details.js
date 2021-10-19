@@ -26,7 +26,7 @@ const Details = () => {
                         <div className=" d-flex">
                             <h2>$ {detailsMatchedCard?.cost}</h2>
                         </div>
-                        <Link to="/home"><button className="item-add-btn-style mt-3"><i className="fas fa-arrow-circle-left"></i> Home </button></Link>
+                        <Link to="/appointment"><button className="item-add-btn-style mt-3">Appointment <i className="fas fa-angle-double-right"></i></button></Link>
                     </div>
                 </div>
             </div>

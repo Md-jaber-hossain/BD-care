@@ -16,7 +16,7 @@ const Footer = () => {
               <div>
                 <span><i className="fas fa-map-marker-alt"></i> Mirpur-1, Dhaka, Bangladesh</span> <br />
                 <span><i className="far fa-envelope"></i> md.jaber8695@gmail.com</span> <br />
-                <p><i class="fas fa-phone-alt"></i> 01621390353</p>
+                <p><i className="fas fa-phone-alt"></i> 01621390353</p>
               </div>
               {/* Social media Icon for footer*/}
               <div className="d-flex mb-5">

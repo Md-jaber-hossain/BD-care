@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import useMedical from '../../hooks/useMedical';
 import HomeServices from '../HomeServices/HomeServices';
 import ExpertDoctors from './ExpertDoctors/ExpertDoctors';
+import Facilities from './Facilities/Facilities';
 import Header from './Header/Header';
 import "./Home.css"
 import PatientReviews from './PatientReviews/PatientReviews';
@@ -30,6 +31,10 @@ const Home = () => {
                     }
                 </div>
             </div>
+
+            {/* Our facilities */}
+
+            <Facilities></Facilities>
 
             {/*--------- Patient reviews ------------*/}
 

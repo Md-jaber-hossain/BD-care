@@ -33,7 +33,7 @@ const MenuBar = () => {
             }
             {user?.email ?
               <button className="signup-btn-style" onClick={logout}>Logout</button> :
-              <Nav.Link as={Link} to="/register"><button className="signup-btn-style"><i class="fas fa-sign-in-alt"></i> Sign up</button></Nav.Link>
+              <Nav.Link as={Link} to="/register"><button className="signup-btn-style"><i className="fas fa-sign-in-alt"></i> Sign up</button></Nav.Link>
             }
           </Navbar.Collapse>
         </Container>

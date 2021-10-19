@@ -24,7 +24,7 @@ const PatientReviews = () => {
                             <div className="card-body text-center">
                                 <h5 className="card-title text-center text-danger fw-bold">Lora mart</h5>
                                 <p className="card-text text-secondary">I am a cancer patient and i get support from this madical all time.</p>
-                                <Link to="/department" className="text-decoration-none text-danger">See more <i class="fas fa-arrow-circle-right"></i></Link>
+                                <Link to="/department" className="text-decoration-none text-danger">See more <i className="fas fa-arrow-circle-right"></i></Link>
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ const PatientReviews = () => {
                             <div className="card-body text-center">
                                 <h5 className="card-title text-danger fw-bold">Maahew watt</h5>
                                 <p className="card-text text-secondary">It's a complete halth care madical for all. They just juide us as their best.</p>
-                                <Link to="/department" className="text-decoration-none text-danger">See more <i class="fas fa-arrow-circle-right"></i></Link>
+                                <Link to="/department" className="text-decoration-none text-danger">See more <i className="fas fa-arrow-circle-right"></i></Link>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const PatientReviews = () => {
                             <div className="card-body text-center">
                                 <h5 className="card-title text-danger fw-bold">James folk</h5>
                                 <p className="card-text text-secondary">I was a patients for surgery and at very low cost. it's all cover.</p>
-                                <Link to="/department" className="text-decoration-none text-danger">See more <i class="fas fa-arrow-circle-right"></i></Link>
+                                <Link to="/department" className="text-decoration-none text-danger">See more <i className="fas fa-arrow-circle-right"></i></Link>
                             </div>
                         </div>
                     </div>

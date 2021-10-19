@@ -15,7 +15,7 @@ const Register = () => {
                         <div className="login-box d-flex align-items-center justify-content-center">
                             <div className="login">
                                 <div className="login-box">
-                                    <h2 className="text-danger"><i class="fas fa-user-plus"></i> Pease Register </h2>
+                                    <h2 className="text-danger"><i className="fas fa-user-plus"></i> Pease Register </h2>
                                     {/* <p>{message}</p> */}
                                     <form onSubmit={handleOnSubmit}>
                                         <input
@@ -50,7 +50,7 @@ const Register = () => {
                                     </form>
                                 </div>
                                 <button className="me-2 btn btn-primary text-white" onClick={signInUsingGoogle}>
-                                <i class="fab fa-google"></i> Signup with Google
+                                <i className="fab fa-google"></i> Signup with Google
                                 </button>
                                 <br /><br />
                                 <Link to="/login" className="text-danger">Already have an account?</Link>

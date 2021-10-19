@@ -18,7 +18,7 @@ const Header = () => {
             <div className="carousel-caption detail-margin">
               <h2>Best Medical Service</h2>
               <p>Health care is the maintenance or improvement of health via the prevention, diagnosis, treatment, recovery, or cure of disease, illness, injury.</p>
-              <Link to="/department"><button className="btn btn-danger text-white">More Details</button></Link>
+              <Link to="/department"><button className="btn btn-danger text-white"><i class="fas fa-info-circle"></i> More Details</button></Link>
             </div>
           </div>
           <div className="carousel-item black1">
@@ -26,7 +26,7 @@ const Header = () => {
             <div className="carousel-caption detail-margin">
               <h2>Fast Treatment for All</h2>
               <p>We are providing Best Medical Services in over 30 specialties including cardiac surgery, cardiology, bone marrow transplant.</p>
-              <Link to="/department"><button className="btn btn-danger text-white">More Details</button></Link>
+              <Link to="/department"><button className="btn btn-danger text-white"><i class="fas fa-info-circle"></i> More Details</button></Link>
             </div>
           </div>
           <div className="carousel-item black1">
@@ -34,7 +34,7 @@ const Header = () => {
             <div className="carousel-caption detail-margin">
               <h1>24 Hours medical Facilities</h1>
               <p>Welcome to our Medical Center, Bangladeshi nationals are required to be examined and issued a Medical Fitness Certificate.</p>
-              <Link to="/department"><button className="btn btn-danger text-white">More Details</button></Link>
+              <Link to="/department"><button className="btn btn-danger text-white"><i class="fas fa-info-circle"></i> More Details</button></Link>
             </div>
           </div>
         </div>

@@ -15,7 +15,6 @@
 /* Hover for NavLink */
 .list:hover {
   color: rgb(238, 21, 86);
-  /* border: 2px solid skyblue; */
   border-radius: 15px;
   background-color: snow;
 }

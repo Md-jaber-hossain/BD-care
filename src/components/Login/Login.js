@@ -43,7 +43,7 @@ const Login = () => {
                         <div className="login-box d-flex align-items-center justify-content-center">
                             <div className="login">
                                 <div className="login-box">
-                                    <h2 className="text-danger">Pease Login</h2>
+                                    <h2 className="text-danger">Pease Login <i class="fas fa-sign-in-alt"></i></h2>
                                     <p className="text-danger">{error}</p>
                                     <form onSubmit={handleEmailPassLogin}>
                                         <input
@@ -74,11 +74,11 @@ const Login = () => {
                     </div>
                     <div className="d-flex justify-content-center">
                         <button className="btn btn-primary text-white" onClick={handleGoogleLogin}>
-                            Login with Google
+                        <i class="fab fa-google"></i> Google sign-in
                         </button>
 
                         <button className=" ms-3 btn btn-danger text-white " onClick={hanleResetPassword}>
-                            Reset Password
+                        <i class="fas fa-unlock-alt"></i> Reset Password
                         </button>
                     </div>
                     <br /><br />

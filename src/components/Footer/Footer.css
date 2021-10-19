@@ -16,13 +16,13 @@
   cursor: text;
 }
  /* Icon hover */
- .fa-mobile-alt{
+ .fa-phone-alt{
   color: rgb(238, 21, 86);
 }
-.fa-envelope{
+ .fa-envelope{
   color: rgb(238, 21, 86);
 }
-.fa-address-card{
+.fa-map-marker-alt{
   color: rgb(238, 21, 86);
 }
 

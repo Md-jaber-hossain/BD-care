@@ -15,7 +15,7 @@ const HomeServices = (props) => {
                     <div className="card-body text-center">
                         <h5 className="card-title text-center">{name}</h5>
                         <p className="card-text">{description}</p>
-                        <Link to={`/details/${id}`}><button className="btn-style mt-3">Details</button></Link>
+                        <Link to={`/details/${id}`}><button className="btn-style mt-3"><i class="fas fa-info-circle"></i> Details</button></Link>
                     </div>
                 </div>
             </div>

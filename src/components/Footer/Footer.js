@@ -10,11 +10,16 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-6">
 
-              <div className="mb-5">
+              <div className="mb-4">
                 <h1 className="fw-bold">BD <span className="text-danger">Care</span></h1>
               </div>
+              <div>
+                <span><i className="fas fa-map-marker-alt"></i> Mirpur-1, Dhaka, Bangladesh</span> <br />
+                <span><i className="far fa-envelope"></i> md.jaber8695@gmail.com</span> <br />
+                <p><i class="fas fa-phone-alt"></i> 01621390353</p>
+              </div>
               {/* Social media Icon for footer*/}
-              <div className="d-flex my-5">
+              <div className="d-flex mb-5">
                 <div className="fs-3">
                   <i className="fab fa-facebook-square"></i>
                 </div>

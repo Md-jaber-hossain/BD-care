@@ -22,7 +22,7 @@ const ExpertDoctors = () => {
                             <div className="card-body text-center">
                                 <h5 className="card-title text-center text-danger fw-bold">Dr. Mat andew</h5>
                                 <p className="card-text text-secondary ">She is a dentist, also known as a dental surgeon, is a medical professional who specializes in dentistry.</p>
-                                <Link to="/department" className="text-decoration-none text-danger">See more</Link>
+                                <Link to="/department" className="text-decoration-none text-danger">See more <i class="fas fa-angle-double-right"></i></Link>
                             </div>
                         </div>
                     </div>
@@ -32,7 +32,7 @@ const ExpertDoctors = () => {
                             <div className="card-body text-center">
                                 <h5 className="card-title text-danger fw-bold">Dr. Tom and Helly</h5>
                                 <p className="card-text text-secondary">They are medical test specialist. They can help detect a condition, determine a diagnosis, plan treatment.</p>
-                                <Link to="/department" className="text-decoration-none text-danger">See more</Link>
+                                <Link to="/department" className="text-decoration-none text-danger">See more <i class="fas fa-angle-double-right"></i></Link>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ const ExpertDoctors = () => {
                             <div className="card-body text-center">
                                 <h5 className="card-title text-danger fw-bold">Dr. Antroni</h5>
                                 <p className="card-text text-secondary">She is anesthesiologst. Her medical specialty concerned with the total perioperative care of patients for surgery.</p>
-                                <Link to="/department" className="text-decoration-none text-danger">See more</Link>
+                                <Link to="/department" className="text-decoration-none text-danger">See more <i class="fas fa-angle-double-right"></i></Link>
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ const ExpertDoctors = () => {
                             <div className="card-body text-center">
                                 <h5 className="card-title text-danger fw-bold">Dr. Austin</h5>
                                 <p className="card-text text-secondary">He is medicine specialist. He can help anyone to reduce mental and physical health. He gives best treatment.</p>
-                                <Link to="/department" className="text-decoration-none text-danger">See more</Link>
+                                <Link to="/department" className="text-decoration-none text-danger">See more <i class="fas fa-angle-double-right"></i></Link>
                             </div>
                         </div>
                     </div>

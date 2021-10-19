@@ -21,12 +21,12 @@ const Details = () => {
                 <div className="col-md-6 d-flex justify-content-center align-items-center">
                     <div>
                         <h1 className="text-danger">{detailsMatchedCard?.name}</h1><br />
-                        <h6><b>Description:</b><br /><span className="text-secondary">{detailsMatchedCard?.description}</span></h6><br />
+                        <p><b>Description:</b><br /><span className="text-secondary">{detailsMatchedCard?.description}</span></p><br />
                         <p> <b>More Info:</b><br /> {detailsMatchedCard?.description2}</p>
                         <div className=" d-flex">
                             <h2>$ {detailsMatchedCard?.cost}</h2>
                         </div>
-                        <Link to="/home"><button className="item-add-btn-style mt-3"> Home </button></Link>
+                        <Link to="/home"><button className="item-add-btn-style mt-3"><i class="fas fa-arrow-circle-left"></i> Home </button></Link>
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ import "./Login.css";
 import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
-    const { user, setUser, setError, loggedInUser, email, password, error, signInUsingGoogle, handleEmailChange, handlePasswordChange, handleLogin, hanleResetPassword, setIsLoading, isLoading } = useAuth();
+    const { user, setUser, message, setMessage, setError, loggedInUser, email, password, error, signInUsingGoogle, handleEmailChange, handlePasswordChange, handleLogin, hanleResetPassword, setIsLoading, isLoading } = useAuth();
 
     const location = useLocation();
     const history = useHistory();
@@ -30,7 +30,7 @@ const Login = () => {
                 setError("");
             })
             .catch((error) => {
-                setError(error.message);
+                setMessage(error.message);
             });
     };
 
@@ -44,7 +44,7 @@ const Login = () => {
                             <div className="login">
                                 <div className="login-box">
                                     <h2 className="text-danger">Pease Login <i className="fas fa-sign-in-alt"></i></h2>
-                                    <p className="text-danger">{error}</p>
+                                    <p className="text-danger">{message}</p>
                                     <form onSubmit={handleEmailPassLogin}>
                                         <input
                                             onChange={handleEmailChange}
